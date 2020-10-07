@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
 
+import HomePage from "./homepage.component";
+
 function App() {
-  return (<h2>Ready to get started!</h2>);
+  return (
+      <div>
+        <HomePage />
+      </div>
+  );
 }
 
 export default App;
